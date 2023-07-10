@@ -6,7 +6,6 @@
 const string = (string1, string2) => {
   return string1.slice(0, 2).concat(string2.slice(string2.length - 3));
 };
-
 console.log(string("Hello", "World"));
 
 /* ESERCIZIO 2 (for)
@@ -20,7 +19,6 @@ const rndm10 = () => {
   }
   return container;
 };
-
 console.log(rndm10());
 
 /* ESERCIZIO 3 (filter)
